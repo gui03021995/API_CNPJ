@@ -17,7 +17,7 @@ class Program
         using System.Data.SqlClient.SqlConnection cn = new SqlConnection(Connect.StrCon);
         cn.Open();
 
-        var validaScript = $@"select count(*) qtd from SituacaoContratante_30_08_23
+        var validaScript = $@"select count(*) qtd from Situacao_Contratante
                                where Situacao_CNPJ is null";
 
         SqlCommand sqlCommand = new SqlCommand(validaScript, cn);
@@ -35,7 +35,7 @@ class Program
                 //Consulta no banco:
                 var sqlQuery = $@"SELECT DISTINCT top 1 
 	                            Nu_CNPJ_Contratante                           
-                              FROM SituacaoContratante_30_08_23
+                              FROM Situacao_Contratante
                               WHERE Situacao_CNPJ IS NULL
                               AND Nu_CNPJ_Contratante IS NOT NULL";
 
