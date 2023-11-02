@@ -9,10 +9,10 @@ namespace ApiSituacaoContratante.Connection
     //Classe de conexão ao banco de dados:
     internal class Connect
     {
-        private static string server = "192.168.17.196";
-        private static string dataBase = "BancoD";
+        private static string server = "xxx.xxx.xxx";
+        private static string dataBase = "Nome_Banco";
         private static string user = "sa";
-        private static string password = "p@dr@o868";
+        private static string password = "senha";
 
         public static string StrCon
         {
