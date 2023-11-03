@@ -924,23 +924,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adalberto.soares\\.nuget\\packages\\": {},
+    "C:\\Users\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adalberto.soares\\OneDrive - Unimed Divinópolis\\Área de Trabalho\\UNIMED\\ApiSituacaoContratante\\ApiSituacaoContratante.csproj",
+      "projectUniqueName": "C:\\Users\\\OneDrive - Divinópolis\\Área de Trabalho\\ApiSituacaoContratante\\ApiSituacaoContratante.csproj",
       "projectName": "ApiSituacaoContratante",
-      "projectPath": "C:\\Users\\adalberto.soares\\OneDrive - Unimed Divinópolis\\Área de Trabalho\\UNIMED\\ApiSituacaoContratante\\ApiSituacaoContratante.csproj",
-      "packagesPath": "C:\\Users\\adalberto.soares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adalberto.soares\\OneDrive - Unimed Divinópolis\\Área de Trabalho\\UNIMED\\ApiSituacaoContratante\\obj\\",
+      "projectPath": "C:\\Users\\OneDrive - Divinópolis\\Área de Trabalho\\\ApiSituacaoContratante\\ApiSituacaoContratante.csproj",
+      "packagesPath": "C:\\Users\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OneDrive - Divinópolis\\Área de Trabalho\\ApiSituacaoContratante\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\adalberto.soares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
