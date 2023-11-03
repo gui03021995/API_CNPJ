@@ -69,7 +69,7 @@ class Program
                             using (SqlCommand command = cn.CreateCommand())
                             {
 
-                                command.CommandText = "UPDATE SituacaoContratante_30_08_23 SET Situacao_CNPJ = @sit WHERE Nu_CNPJ_Contratante = @cnpj";
+                                command.CommandText = "UPDATE Situacao_Contratante SET Situacao_CNPJ = @sit WHERE Nu_CNPJ_Contratante = @cnpj";
                                 command.Parameters.AddWithValue("@sit", situacaoCadastralValue);
                                 command.Parameters.AddWithValue("@cnpj", cnpjRaizValue);
 
